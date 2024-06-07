@@ -1,0 +1,33 @@
+.information{
+    margin-bottom: 50px;
+}
+
+
+.info__title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.info__cards {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__cards-card {
+    width: 278px;
+    text-align: center;
+}
+
+.info__card-content-title {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info__card-content-text {
+    font-size: 18px;
+    padding: 0 10px;
+}

@@ -1,0 +1,47 @@
+.footer {
+    background:  #2B2B2B;
+}
+
+
+.footer__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.card__title, .card__link {
+    color: #55B74C;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card__txt {
+    font-size: 18px;
+    margin: 12px 0;
+    color: #898989;
+}
+.card__link {
+    margin-top: 40px;
+}
+
+.card__num {
+    color: #fff;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__img {
+    padding: 10px;
+}
+
+.footer__text {
+    color: #898989;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+}

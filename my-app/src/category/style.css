@@ -1,0 +1,35 @@
+.category {
+    margin: 70px 0;
+}
+
+.category__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.category__content-card {
+    width: 278px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.category__content-card-btn {
+    background: #55B74CCC;
+    color: #fff;
+    padding: 13px 0;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}

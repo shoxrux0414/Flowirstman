@@ -1,0 +1,72 @@
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.header__top-nav {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header__top-link {
+    font-size: 14px;
+    color: black;
+}
+
+.header__top-btn {
+    font-size: 16px;
+    color: #55b74c;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__info-ishon {
+    display: flex;
+    column-gap: 50px;
+}
+
+.header__info-nav {
+    color: #898989;
+    font-size: 14px;
+}
+
+.header__info-loc {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header__info-num {
+    font-size: 18px;
+    color: #55b74c;
+    font-weight: 500;
+}
+
+.header__dev {
+    margin: 30px 0;
+}
+
+.header__dev-nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+    border-radius: 7px;
+}
+
+.header__dev-link {
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.header__banner {
+    overflow: hidden;
+}
